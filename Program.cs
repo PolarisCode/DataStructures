@@ -6,7 +6,14 @@ namespace Data_Structures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Stack s = new Stack(5);
+
+            s.Push(10);
+            s.Push(29);
+
+            System.Console.WriteLine(s.Pop());
+            System.Console.WriteLine(s.Pop());
+            s.Pop();
         }
     }
 }
